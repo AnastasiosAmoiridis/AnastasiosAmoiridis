@@ -45,14 +45,14 @@ class Engineer {
     this.sanity = 100; 
   }
 
-  code() { 
-    console.log("💻 Bugs… Gonna fix them all! Current sanity:", this.sanity);
-    this.sanity -= 10; // coding decreases sanity
+  code() {
+    this.sanity -= 10; // coding decreases sanity 
+    console.log("💻 Bugs… Gonna fix them all! Current sanity:", this.sanity);   
   }
 
   drinkCoffee() {
-    console.log("☕ One more wouldn't hurt… sanity restored a little! Current sanity:", this.sanity);
     this.sanity += 10; // coffee restores some sanity
+    console.log("☕ One more wouldn't hurt… sanity restored a little! Current sanity:", this.sanity);    
   }
 
   considerLife() {
